@@ -16,12 +16,10 @@ import Plane from '../models/Plane';
 const Home = () => {
   const [isRotating, setIsRotating] = useState(false);
 
-
   const adjustIslandForScreenSize = () => {
     let screenScale = null;
     let screenPosition = [0, -6.5, -43];
     let rotation = [0.1, 4.7, 0]
-
 
     if(window.innerWidth < 768) {
       screenScale = [0.9, 0.9, 0.9];
@@ -84,6 +82,7 @@ const Home = () => {
 
 
       </Canvas>
+
     </section>
   )
 }
