@@ -34,7 +34,7 @@ const renderContent = {
   ),
   4: (
     <InfoBox
-      text="Contacting me is easy!"
+      text="You can contact me several ways! Feel free to reach out!"
       link="/contact"
       btnText="Contact me"
     />
