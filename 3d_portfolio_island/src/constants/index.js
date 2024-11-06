@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { cudenver, centralautos, kai, lewagon, wcoding } from "../assets/images";
 import {
     car,
     contact,
@@ -108,7 +108,7 @@ export const experiences = [
     {
         title: "University Student",
         company_name: "University of Colorado at Denver",
-        icon: starbucks,
+        icon: cudenver,
         iconBg: "#accbe1",
         date: "March 2020 - April 2021",
         points: [
@@ -121,7 +121,7 @@ export const experiences = [
     {
         title: "General Manager",
         company_name: "Central Autos",
-        icon: tesla,
+        icon: centralautos,
         iconBg: "#fbc3bc",
         date: "Jan 2021 - Feb 2022",
         points: [
@@ -134,7 +134,7 @@ export const experiences = [
     {
         title: "Language Student",
         company_name: "Kai Language School",
-        icon: shopify,
+        icon: kai,
         iconBg: "#b7e4c7",
         date: "Jan 2022 - Jan 2023",
         points: [
@@ -147,8 +147,8 @@ export const experiences = [
     {
         title: "Tech Student",
         company_name: "Le Wagon",
-        icon: meta,
-        iconBg: "#a2d2ff",
+        icon: lewagon,
+        iconBg: "#fbc3bc",
         date: "Jan 2023 - Present",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
@@ -160,7 +160,7 @@ export const experiences = [
     {
       title: "Tech Student",
       company_name: "wCoding",
-      icon: meta,
+      icon: wcoding,
       iconBg: "#a2d2ff",
       date: "Jan 2023 - Present",
       points: [
