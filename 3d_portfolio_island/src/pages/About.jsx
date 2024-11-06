@@ -58,11 +58,11 @@ const About = () => {
                 >
                 <div>
                   <h3 className="text-black text-xl font-poppins font-semibold">
-                    {experience.title}
+                    {experience.company_name}
                   </h3>
                   <p className ="text-black-500 font-medium font-base"
                   style={{margin:0}}>
-                    {experience.company_name}
+                    {experience.title}
                   </p>
                 </div>
 

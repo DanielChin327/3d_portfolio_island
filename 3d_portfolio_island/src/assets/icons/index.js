@@ -27,6 +27,14 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 
+import ruby from './ruby.svg'
+import rails from './rubyonrails.svg'
+import python from './python.svg'
+import flask from './flask.svg'
+import sqlite from './sqlite.svg'
+import bootstrap from './bootstrap.svg'
+
+
 export {
     css,
     express,
@@ -55,5 +63,11 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    ruby,
+    rails,
+    python,
+    flask,
+    sqlite,
+    bootstrap
 }

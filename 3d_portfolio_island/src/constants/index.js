@@ -23,19 +23,26 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    ruby,
+    rails,
+    python,
+    flask,
+    sqlite,
+    bootstrap
+
 } from "../assets/icons";
 
 export const skills = [
     {
-        imageUrl: css,
-        name: "CSS",
+        imageUrl: html,
+        name: "HTML",
         type: "Frontend",
     },
     {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
+        imageUrl: css,
+        name: "CSS",
+        type: "Frontend",
     },
     {
         imageUrl: git,
@@ -48,49 +55,25 @@ export const skills = [
         type: "Version Control",
     },
     {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
         imageUrl: javascript,
         name: "JavaScript",
         type: "Frontend",
     },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
+
     {
         imageUrl: react,
         name: "React",
         type: "Frontend",
     },
     {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
+        imageUrl: python,
+        name: "Python",
+        type: "Backend",
+    },
+    {
+        imageUrl: flask,
+        name: "Flask",
+        type: "Backend",
     },
     {
         imageUrl: sass,
@@ -98,21 +81,33 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
+        imageUrl: ruby,
+        name: "Ruby",
+        type: "FullStack",
     },
     {
-        imageUrl: typescript,
-        name: "TypeScript",
+        imageUrl: rails,
+        name: "Ruby on Rails",
+        type: "Backend",
+    },
+
+    {
+        imageUrl: sqlite,
+        name: "Sqlite",
+        type: "Database",
+    },
+    {
+        imageUrl: bootstrap,
+        name: "Bootstrap",
         type: "Frontend",
-    }
+    },
+
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "University Student",
+        company_name: "University of Colorado at Denver",
         icon: starbucks,
         iconBg: "#accbe1",
         date: "March 2020 - April 2021",
@@ -124,8 +119,8 @@ export const experiences = [
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "General Manager",
+        company_name: "Central Autos",
         icon: tesla,
         iconBg: "#fbc3bc",
         date: "Jan 2021 - Feb 2022",
@@ -137,8 +132,8 @@ export const experiences = [
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
+        title: "Language Student",
+        company_name: "Kai Language School",
         icon: shopify,
         iconBg: "#b7e4c7",
         date: "Jan 2022 - Jan 2023",
@@ -150,8 +145,8 @@ export const experiences = [
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
+        title: "Tech Student",
+        company_name: "Le Wagon",
         icon: meta,
         iconBg: "#a2d2ff",
         date: "Jan 2023 - Present",
@@ -162,6 +157,19 @@ export const experiences = [
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
+    {
+      title: "Tech Student",
+      company_name: "wCoding",
+      icon: meta,
+      iconBg: "#a2d2ff",
+      date: "Jan 2023 - Present",
+      points: [
+          "Developing and maintaining web applications using React.js and other related technologies.",
+          "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+          "Implementing responsive design and ensuring cross-browser compatibility.",
+          "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+  },
 ];
 
 export const socialLinks = [
