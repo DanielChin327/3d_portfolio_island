@@ -39,7 +39,25 @@ const Contact = () => {
           <p className="text-lg text-center text-slate-500">Email: danchin327@gmail.com</p>
           <p className="text-lg text-center text-slate-500">Phone: (720) 201-4930</p>
         </div>
+
+
+
+      {/* Resume Card */}
+      <div className="flex flex-col items-center bg-white p-6 w-80 h-60 border rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <span className="font-semibold text-2xl mb-2">Resume</span>
+          <a
+            href="https://flowcv.com/resume/ssfft8b7sa"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-lg text-center text-blue-500 underline"
+          >
+            Link to Resume
+          </a>
+        </div>
+
       </div>
+
+
     </section>
   );
 };
