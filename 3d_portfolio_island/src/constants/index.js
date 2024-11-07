@@ -29,8 +29,13 @@ import {
     python,
     flask,
     sqlite,
-    bootstrap
-
+    bootstrap,
+    careerconnect,
+    profinder,
+    weather,
+    turntales,
+    tokyotravels,
+    shinrarecruitment
 } from "../assets/icons";
 
 export const skills = [
@@ -173,63 +178,64 @@ export const experiences = [
 
 export const socialLinks = [
     {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
-    {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/DanielChin327',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/danielkchin',
     }
 ];
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: careerconnect,
         theme: 'btn-back-red',
         name: 'Career Connect',
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        tools: 'React, Flask, SQL',
+        description: "React/Flask/SQL A fully functioning job board platform for job seekers to apply to job postings that employers can post with a touch of a button. ",
         link: 'https://github.com/DanielChin327/career_connect',
     },
     {
-        iconUrl: threads,
-        theme: 'btn-back-green',
+        iconUrl: profinder,
+        theme: 'btn-back-pink',
         name: 'Profinder',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        link: 'https://github.com/adrianhajdin/threads',
+        tools: 'Ruby, Ruby on Rails, JS, Sass',
+        description: 'A Rails based app that allows expats living in Tokyo to seek out professionals in various fields such as attorneys, accounants, and doctors that speak English. ',
+        link: 'https://github.com/DanielChin327/profinder',
     },
     {
-        iconUrl: car,
+        iconUrl: turntales,
         theme: 'btn-back-blue',
         name: 'Turn Tales (IN PROGRESS)',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        tools: 'React, Flask, SQL, Open AI, Sass',
+        description: 'An AI based game that muliple players take turns providing prompts to allow AI to complete a story for them.',
+        link: 'https://github.com/DanielChin327/turn_tales',
     },
     {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
+        iconUrl: tokyotravels,
+        theme: 'btn-back-green',
         name: 'Tokyo Travels (IN PROGRESS)',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        tools: 'React, Flask, SQL, Sass',
+        description: 'A blog post that provides users to post their own photos and recommendations of places they loved to visit in and around Tokyo that may not be mentioned on major travel sites.',
+        link: 'https://github.com/DanielChin327',
     },
     {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Weather App',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
+        iconUrl: weather,
         theme: 'btn-back-yellow',
+        name: 'Weather App',
+        tools: 'React, CSS, Weather API',
+        description: 'A weather app that has modern UI that provides a five day forecast with a provided city.',
+        link: 'https://github.com/DanielChin327/react_weather_app',
+    },
+    {
+        iconUrl: shinrarecruitment,
+        theme: 'btn-back-black',
         name: 'Shinra Recruitment',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        tools: 'React, CSS',
+        description: 'A funny fictional recruitment page created based on Shinra Corporation.',
+        link: 'https://github.com/DanielChin327/shinra_recruitment',
     }
 ];

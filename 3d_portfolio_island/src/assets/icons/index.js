@@ -34,6 +34,15 @@ import flask from './flask.svg'
 import sqlite from './sqlite.svg'
 import bootstrap from './bootstrap.svg'
 
+import careerconnect from './careerconnect.svg'
+import profinder from './profinder.svg'
+import weather from './weather.svg'
+import turntales from './turntales.svg'
+import tokyotravels from './tokyotravels.svg'
+import shinrarecruitment from './shinrarecruitment.svg'
+
+
+
 
 export {
     css,
@@ -69,5 +78,11 @@ export {
     python,
     flask,
     sqlite,
-    bootstrap
+    bootstrap,
+    careerconnect,
+    profinder,
+    weather,
+    turntales,
+    tokyotravels,
+    shinrarecruitment
 }

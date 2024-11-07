@@ -32,6 +32,9 @@ const Projects = () => {
               <h4 className="text-2xl font-poppins font-semibold">
                 {project.name}
               </h4>
+              <p className="mt-2">
+                {project.tools}
+              </p>
               <p className="mt-2 text-slate-500">
                 {project.description}
               </p>
@@ -48,7 +51,7 @@ const Projects = () => {
                   src={arrow}
                   alt="arrow"
                   className="w-4 h-4 object-contain"
-                 />
+                />
               </div>
             </div>
 
