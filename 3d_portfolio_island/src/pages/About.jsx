@@ -7,7 +7,7 @@ import CTA from '../components/CTA'
 const About = () => {
   return (
     <section className="max-container">
-      <h1 className="head-text">Hi There! My name is <span className = "blue-gradient_text front-semibold drop-shadow">Dan</span>.
+      <h1 className="head-text">Hi There! My name is <span className = "blue-gradient_text front-semibold drop-shadow">Daniel Chin</span>.
       </h1>
 
       <div className = "mt-5 flex flex-col gap-3 text-slate-500">
@@ -35,7 +35,7 @@ const About = () => {
       <div className="py-16">
             <h3 className="subhead-text">My Journey</h3>
         <div className = "mt-5 flex flex-col gap-3 text-slate-500">
-         <p>Throughout my life, I have pursued diverse experiences that fuel my curiosity and drive for growth. Starting with a degree in International Studies, I built a solid foundation in critical thinking and adaptability. My 15 years of experience in the automotive industry taught me the value of resilience, customer insight, and managing complex responsibilities. A personal interest in language led me to study Japanese in Tokyo, which deepened my adaptability and cultural awareness. Now, I’m channeling this journey into technology, where I am eager to bring my unique perspective and dedication to a career in software development.</p>
+        <p>Throughout my life, I have pursued diverse experiences that fuel my curiosity and drive for growth. Starting with a degree in International Studies, I built a solid foundation in critical thinking and adaptability. My 15 years of experience in the automotive industry taught me the value of resilience, customer insight, and managing complex responsibilities. A personal interest in language led me to study Japanese in Tokyo, which deepened my adaptability and cultural awareness. Now, I’m channeling this journey into technology, where I am eager to bring my unique perspective and dedication to a career in software development.</p>
         </div>
         <div className="mt-12 flex">
           <VerticalTimeline>

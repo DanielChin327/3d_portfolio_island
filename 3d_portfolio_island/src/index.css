@@ -115,7 +115,7 @@ body:has(.card[data-color="green"]:hover) {
 }
 
 .block-container .btn-back-red {
-  background: linear-gradient(135deg, #ff4b1f -20%, #ff9068 120%);
+  background: linear-gradient(135deg, #dd380f -20%, #ff9068 120%);
 }
 
 .block-container .btn-back-green {
@@ -123,7 +123,7 @@ body:has(.card[data-color="green"]:hover) {
 }
 
 .block-container .btn-back-yellow {
-  background: linear-gradient(135deg, #f7971e -20%, #ffd200 120%);
+  background: linear-gradient(135deg, #f7f01e -20%, #ffd200 120%);
 }
 
 .block-container .btn-back-blue {
@@ -131,7 +131,7 @@ body:has(.card[data-color="green"]:hover) {
 }
 
 .block-container .btn-back-orange {
-  background: linear-gradient(135deg, #ff0f7b -20%, #f89b29 120%);
+  background: linear-gradient(135deg, #ffa30f -20%, #f89b29 120%);
 }
 
 .block-container .btn-back-pink {
@@ -140,6 +140,18 @@ body:has(.card[data-color="green"]:hover) {
 
 .block-container .btn-back-black {
   background: linear-gradient(135deg, #0a1647 -20%, #e4e7e4 120%);
+}
+
+.block-container .btn-back-purple {
+  background: linear-gradient(135deg, #8e2de2 -20%, #4a00e0 120%);
+}
+
+.block-container .btn-back-gray {
+  background: linear-gradient(135deg, #bdc3c7 -20%, #2c3e50 120%);
+}
+
+.block-container .btn-back-white {
+  background: linear-gradient(135deg, #ffffff -20%, #e6e6e6 120%);
 }
 
 .block-container .btn-front {

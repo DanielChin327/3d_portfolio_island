@@ -130,7 +130,7 @@ export const experiences = [
         date: "2007 - 2022",
         points: [
             "Gained over 15 years of hands-on experience in a family-owned business while studying at university.",
-            "Progressed from cleaning vehicles, to a salesperson, finally to opening and operating a second branch.",
+            "Progressed from cleaning vehicles, to a salesperson, to finally opening and operating a second branch.",
             "Developed adaptability and multitasking skills to meet dynamic business needs.",
             "Took on diverse roles in inventory management, customer relations, logistics, accounting, and leadership.",
         ],
@@ -155,7 +155,7 @@ export const experiences = [
         iconBg: "#fbc3bc",
         date: "Jan 2024 - March 2024",
         points: [
-            "After a brief moment of self studying, enrolled in an intensive web development course to build a solid foundation in coding.",
+            "After a brief moment of self studying, decided to enroll in an intensive web development course to build a solid foundation in coding.",
             "Gained comprehensive knowledge of full-stack development, including frontend, backend, and deployment.",
             "Practiced key web development concepts daily, such as HTML, CSS, JavaScript, GitHub, and APIs, using Ruby on Rails.",
             "Participated in code challenges and engaged in constructive peer feedback sessions.",
