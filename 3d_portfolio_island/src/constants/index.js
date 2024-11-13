@@ -228,7 +228,7 @@ export const projects = [
         name: 'Weather App',
         tools: 'React, CSS, Weather API',
         description: 'A weather app that has modern UI that provides a five day forecast with a provided city.',
-        link: 'https://github.com/DanielChin327/react_weather_app',
+        link: 'https://danielchin327.github.io/advanced_weather_app/',
     },
     {
         iconUrl: shinrarecruitment,
